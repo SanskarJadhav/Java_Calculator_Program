@@ -9,6 +9,7 @@ The Main class acts as a user interface, where the user can
 
 input and calc are instances of the classes UserInput() and Calculator() respectively
 
+
 The UserInput class uses both Scanner and BufferedReader
 The methods used are:
 - enterTwoNumbers():
@@ -22,6 +23,7 @@ The numbers are then stored in an array
 BufferedReader is used to take in a string of numbers
 
 The string is then split at every space and converted to an array of type double using Double.parseDouble()
+
 
 The Calculator class handles the mathematical operations
 
