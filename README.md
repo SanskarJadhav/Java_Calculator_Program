@@ -12,18 +12,8 @@ input and calc are instances of the classes UserInput() and Calculator() respect
 
 The UserInput class uses both Scanner and BufferedReader
 The methods used are:
-- enterTwoNumbers():
- 
-Scanner is used to take in 2 numbers of double type
-
-The numbers are then stored in an array
-
-- enterMultipleNumbers(): 
-
-BufferedReader is used to take in a string of numbers
-
-The string is then split at every space and converted to an array of type double using Double.parseDouble()
-
+- enterTwoNumbers(): Scanner is used to take in 2 numbers of double type, which are then stored in an array
+- enterMultipleNumbers(): BufferedReader is used to take in a string of numbers, which is then split at every space and converted to an array of type double using Double.parseDouble()
 
 The Calculator class handles the mathematical operations
 
